@@ -1,0 +1,7 @@
+.rodape {
+  margin-top: var(--espaco-xl);
+  padding: var(--espaco-lg) var(--espaco-md);
+  text-align: center;
+  color: var(--cor-texto-suave);
+  border-top: var(--borda);
+}

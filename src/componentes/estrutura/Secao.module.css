@@ -1,0 +1,22 @@
+.secao {
+  background: var(--cor_superficie);
+  border: var(--borda);
+  border-radius: var(--raio_md);
+  padding: var(--espaco_md);
+  scroll-margin-top: 120px;    
+}
+
+.titulo {
+  margin-bottom: var(--espaco_sm);
+}
+
+.descricao {
+  color: var(--cor_texto_suave);
+  margin-bottom: var(--espaco_md);
+}
+
+@media (min-width: 1024px) {
+  .secao {
+    padding: var(--espaco_lg);
+  }
+}
